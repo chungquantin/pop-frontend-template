@@ -20,7 +20,7 @@ export default function MainHeader() {
         h={16}>
         <a href='/'>
           <Box w={9}>
-            <img src='/dedot-dark-logo.png' />
+            <img src='/pop-avatar-circle.png' />
           </Box>
         </a>
         <Flex gap={2}>{injectedApi ? <AccountSelection /> : <WalletSelection />}</Flex>

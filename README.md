@@ -1,4 +1,4 @@
-# Typink Demo App
+# Pop API Fullstack App Boilerplate
 
 The dapp is live at: https://typink.netlify.app
 
