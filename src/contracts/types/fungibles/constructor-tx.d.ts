@@ -11,22 +11,12 @@ import type {
 export interface ConstructorTx<ChainApi extends GenericSubstrateApi> extends GenericConstructorTx<ChainApi> {
   /**
    *
-   * @param {bigint} supply
-   * @param {string | undefined} name
-   * @param {string | undefined} symbol
-   * @param {number} decimals
    * @param {ConstructorTxOptions} options
    *
    * @selector 0x9bae9d5e
    **/
   new: GenericConstructorTxCall<
     ChainApi,
-    (
-      supply: bigint,
-      name: string | undefined,
-      symbol: string | undefined,
-      decimals: number,
-      options: ConstructorTxOptions,
-    ) => GenericInstantiateSubmittableExtrinsic<ChainApi>
+    (options: ConstructorTxOptions) => GenericInstantiateSubmittableExtrinsic<ChainApi>
   >;
 }

@@ -14,22 +14,12 @@ import type { InkPrimitivesLangError } from './types';
 export interface ConstructorQuery<ChainApi extends GenericSubstrateApi> extends GenericConstructorQuery<ChainApi> {
   /**
    *
-   * @param {bigint} supply
-   * @param {string | undefined} name
-   * @param {string | undefined} symbol
-   * @param {number} decimals
    * @param {ConstructorCallOptions} options
    *
    * @selector 0x9bae9d5e
    **/
   new: GenericConstructorQueryCall<
     ChainApi,
-    (
-      supply: bigint,
-      name: string | undefined,
-      symbol: string | undefined,
-      decimals: number,
-      options: ConstructorCallOptions,
-    ) => Promise<GenericConstructorCallResult<[], ContractInstantiateResult<ChainApi>>>
+    (options: ConstructorCallOptions) => Promise<GenericConstructorCallResult<[], ContractInstantiateResult<ChainApi>>>
   >;
 }

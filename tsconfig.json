@@ -17,6 +17,6 @@
     },
     "types": ["vitest/globals"]
   },
-  "include": ["src"],
+  "include": ["src", "**/*.json"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
