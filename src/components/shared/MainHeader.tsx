@@ -10,7 +10,7 @@ export default function MainHeader() {
   return (
     <Box borderBottom={1} borderStyle='solid' borderColor='gray.200'>
       <Container
-        maxWidth='container.md'
+        maxWidth='container.lg'
         px={4}
         mx='auto'
         display='flex'

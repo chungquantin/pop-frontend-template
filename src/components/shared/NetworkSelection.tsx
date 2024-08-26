@@ -22,7 +22,7 @@ export default function NetworkSelection() {
         <Flex direction='row' align='center' gap={2}>
           <img src={network.logo} alt={network.name} width={22} style={{ borderRadius: 4 }} />
           {!smallest && <span>{network.name}</span>}
-
+          <div>({network.provider})</div>
           <Box ml={2}>
             <NetworkStatusIndicator />
           </Box>
@@ -37,6 +37,7 @@ export default function NetworkSelection() {
             <Flex direction='row' align='center' gap={2}>
               <img src={one.logo} alt={one.name} width={18} style={{ borderRadius: 4 }} />
               <span>{one.name}</span>
+              <div>({one.provider})</div>
             </Flex>
           </MenuItem>
         ))}

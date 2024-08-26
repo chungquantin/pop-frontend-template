@@ -7,7 +7,7 @@ const MainFooter: FC<Props> = () => {
   return (
     <Box borderTop={1} borderStyle='solid' borderColor='gray.200'>
       <Flex
-        maxWidth='container.md'
+        maxWidth='container.lg'
         px={4}
         mx='auto'
         display='flex'

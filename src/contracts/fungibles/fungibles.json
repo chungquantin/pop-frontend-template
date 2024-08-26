@@ -1,6 +1,6 @@
 {
   "source": {
-    "hash": "0xd96b203d4f8cd2db966990a813af4d9bf5d1e459a06de14749de4122724fb0ab",
+    "hash": "0x303df61d014729c599d0b777fb54de6f39fde496799cd16b1bb5a9eddaad3b65",
     "language": "ink! 5.0.0",
     "compiler": "rustc 1.79.0",
     "build_info": {
@@ -493,7 +493,7 @@
         "default": false,
         "docs": [],
         "label": "transfer",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -555,7 +555,7 @@
         "default": false,
         "docs": [],
         "label": "transfer_from",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -599,7 +599,7 @@
         "default": false,
         "docs": [],
         "label": "approve",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -643,7 +643,7 @@
         "default": false,
         "docs": [],
         "label": "increase_allowance",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -687,7 +687,7 @@
         "default": false,
         "docs": [],
         "label": "decrease_allowance",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -821,7 +821,7 @@
           " - asset_exists"
         ],
         "label": "create",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -847,7 +847,7 @@
         "default": false,
         "docs": [],
         "label": "start_destroy",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -900,7 +900,7 @@
         "default": false,
         "docs": [],
         "label": "set_metadata",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -1000,7 +1000,7 @@
           " - burn"
         ],
         "label": "mint",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
@@ -1044,7 +1044,7 @@
         "default": false,
         "docs": [],
         "label": "burn",
-        "mutates": false,
+        "mutates": true,
         "payable": false,
         "returnType": {
           "displayName": [
